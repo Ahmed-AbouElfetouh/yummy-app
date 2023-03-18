@@ -1,0 +1,27 @@
+.area {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.area .area-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+.area .area-content > div {
+  cursor: pointer;
+}
+.close-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.third-section {
+  display: none;
+}

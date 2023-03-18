@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./../images/logo.png">
+
+  <title>Yummy</title>
+
+  <link rel="stylesheet" href="./../css/all.min.css">
+  <link rel="stylesheet" href="./../css/style.css">
+  <link rel="stylesheet" href="./../css/styles/contact.css">
+
+</head>
+
+<body>
+  <span class="open-btn" id="open-btn">Click Here!</span>
+  <ul class="infos" id="info-list">
+    <li>Name: Ahmed Mohammed</li>
+    <li>Phone: 01023692770</li>
+    <li>Password: Ahmed****0</li>
+    <li>Email: am306057@gmail.com</li>
+    <li>Age: 29</li>
+  </ul>
+  <nav id="main-nav">
+    <ul class="main-links">
+      <li><a href="./search.html">Search</a></li>
+      <li><a href="./categories.html">Categories</a></li>
+      <li><a href="./area.html">Area</a></li>
+      <li><a href="./ingredients.html">Ingredients</a></li>
+      <li><a href="./contact.html">Contact Us</a></li>
+    </ul>
+    <div class="footer">
+      <ul class="social-links">
+        <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+      </ul>
+      <p class="copyright">Copyright Â© 2019 All Rights Reserved.</p>
+    </div>
+  </nav>
+  <div class="aside-nav" id="aside-nav">
+    <a class="image" href="./../../index.html">
+      <img src="./../images/logo.png" alt="Logo">
+    </a>
+    <span class="toggle-btn" id="open-nav">
+      <i class="fa-solid fa-bars"></i>
+    </span>
+    <span class="toggle-btn hide" id="close-nav">
+      <i class="fa-solid fa-xmark"></i>
+    </span>
+    <div class="icons">
+      <ul>
+        <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+        <li><a href="#"><i class="fa-solid fa-share-nodes"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <form>
+    <div class="container">
+      <div class="form-content">
+        <div>
+          <div>
+            <input type="text" placeholder="Enter Your Name" id="name-input">
+            <p id="name-msg">Special characters and numbers not allowed</p>
+          </div>
+          <div>
+            <input type="text" placeholder="Enter Your Phone" id="phone-input">
+            <p id="phone-msg">Enter valid Egyptian Phone Number</p>
+          </div>
+          <div>
+            <input type="password" id="password-input" placeholder="Enter Your Password">
+            <p id="password-msg">Enter valid password *Minimum eight characters, at least one letter and one number:*
+            </p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <input type="email" id="email-input" placeholder="Enter Your Email">
+            <p id="email-msg">Enter a Vaild Email</p>
+          </div>
+          <div>
+            <input type="number" placeholder="Enter Your Age" id="age-input">
+            <p id="age-msg">Enter a Vaild Age > 16</p>
+          </div>
+          <div>
+            <input type="password" id="rePassword-input" placeholder="Enter Your Password">
+            <p id="rePassword-msg">Enter Same Password</p>
+          </div>
+        </div>
+      </div>
+      <input type="submit" value="Submit" disabled id="submit">
+    </div>
+  </form>
+  <script src="./../js/script.js"></script>
+  <script src="./../js/scripts/contact.js"></script>
+</body>
+
+</html>
