@@ -1,2 +1,2 @@
 # yummy-app
-Route Course - JavaSCript Exam - Yummy App
+Route Course - Javascript Exam - Yummy App
